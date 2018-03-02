@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+    <view class="com.rtcab.cemtn.entity.Customer"
+          extends="_local"
+          name="customer-view">
+        <property name="telephoneNumbers"
+                  view="_local"/>
+    </view>
+</views>

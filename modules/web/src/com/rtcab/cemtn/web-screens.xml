@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="com/rtcab/cemtn/screens.xml"/>
+    <screen id="cemtn$Customer.browse"
+            template="com/rtcab/cemtn/web/customer/customer-browse.xml"/>
+    <screen id="cemtn$Customer.edit"
+            template="com/rtcab/cemtn/web/customer/customer-edit.xml"/>
+    <screen id="cemtn$TelephoneNumber.edit"
+            template="com/rtcab/cemtn/web/telephonenumber/telephone-number-edit.xml"/>
+</screen-config>

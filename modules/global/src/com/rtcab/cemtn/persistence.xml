@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             version="2.0">
+    <persistence-unit name="cuba-example-mutiple-telephone-numbers"
+                      transaction-type="RESOURCE_LOCAL">
+        <class>com.rtcab.cemtn.entity.Customer</class>
+        <class>com.rtcab.cemtn.entity.TelephoneNumber</class>
+    </persistence-unit>
+</persistence>

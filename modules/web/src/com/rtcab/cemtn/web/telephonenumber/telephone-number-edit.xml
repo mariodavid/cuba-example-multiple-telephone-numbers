@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editorCaption"
+        class="com.rtcab.cemtn.web.telephonenumber.TelephoneNumberEdit"
+        datasource="telephoneNumberDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.rtcab.cemtn.web.telephonenumber">
+    <dsContext>
+        <datasource id="telephoneNumberDs"
+                    class="com.rtcab.cemtn.entity.TelephoneNumber"
+                    view="_local"/>
+    </dsContext>
+    <dialogMode height="auto"
+                width="auto"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="telephoneNumberDs">
+            <column width="250px">
+                <field property="number"/>
+                <field property="numberType"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>
